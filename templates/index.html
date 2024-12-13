@@ -53,10 +53,6 @@
             })
             .then(data => {
                 let result = `<h3>Analysis Result:</h3>`;
-                result += `<p>Hedging Phrases: ${data.hedging_count}</p>`;
-                result += `<p>Apologies: ${data.apologizing_count}</p>`;
-                result += `<p>Minimizing Phrases: ${data.minimizing_count}</p>`;
-                result += `<p>Passive Voice: ${data.passive_voice_count}</p>`;
                 result += `<p>Total Issues: ${data.total_issues}</p>`;
                 result += `<h3>Suggestions:</h3><ul>`;
 
