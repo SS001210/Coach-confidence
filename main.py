@@ -12,8 +12,7 @@ app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
 # Serve static files (optional, remove if not used)
-#app.mount("/static", StaticFiles(directory="static"), name="static")
-
+app.mount("/static", StaticFiles(directory="static"), name="static")
 # Route to serve the HTML form (GET)
 @app.get("/", response_class=HTMLResponse)
 async def get_form(request: Request):
