@@ -1,0 +1,6 @@
+fastapi             # Web framework
+uvicorn             # ASGI server
+jinja2              # Template rendering for HTML
+pydantic            # Data validation
+requests            # If used for external API calls (optional)
+python-dotenv       # For environment variables (optional)
