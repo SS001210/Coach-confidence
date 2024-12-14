@@ -1,3 +1,4 @@
+absl-py==2.1.0
 aiobotocore==2.15.2
 aiohttp @ file:///C:/b/abs_27h_1rpxgd/croot/aiohttp_1707342354614/work
 aioitertools @ file:///tmp/build/80754af9/aioitertools_1607109665762/work
@@ -21,6 +22,7 @@ arrow @ file:///C:/ci_311/arrow_1678249767083/work
 astroid @ file:///C:/ci_311/astroid_1678740610167/work
 astropy @ file:///C:/b/abs_2fb3x_tapx/croot/astropy_1697468987983/work
 asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+astunparse==1.6.3
 async-lru @ file:///C:/b/abs_e0hjkvwwb5/croot/async-lru_1699554572212/work
 atomicwrites==1.4.0
 attrs @ file:///C:/b/abs_35n0jusce8/croot/attrs_1695717880170/work
@@ -103,6 +105,7 @@ flake8 @ file:///C:/ci_311/flake8_1678376624746/work
 flasgger==0.9.7.1
 Flask @ file:///C:/b/abs_efc024w7fv/croot/flask_1702980041157/work
 Flask-RESTful==0.3.10
+flatbuffers==24.3.25
 fonttools==4.25.0
 frozendict @ file:///C:/b/abs_2alamqss6p/croot/frozendict_1713194885124/work
 frozenlist @ file:///C:/b/abs_d8e__s1ys3/croot/frozenlist_1698702612014/work
@@ -110,18 +113,22 @@ fsspec @ file:///C:/b/abs_97mpfsesn0/croot/fsspec_1701286534629/work
 fst-pso==1.8.1
 future @ file:///C:/ci_311_rebuilds/future_1678998246262/work
 FuzzyTM==2.0.9
+gast==0.6.0
 gensim @ file:///C:/ci_311/gensim_1677743037820/work
 gitdb @ file:///tmp/build/80754af9/gitdb_1617117951232/work
 GitPython @ file:///C:/b/abs_e1lwow9h41/croot/gitpython_1696937027832/work
 gmpy2 @ file:///C:/ci_311/gmpy2_1677743390134/work
+google-pasta==0.2.0
 greenlet @ file:///C:/b/abs_a6c75ie0bc/croot/greenlet_1702060012174/work
+grpcio==1.68.1
 gymnasium==0.29.1
 h11==0.14.0
-h5py @ file:///C:/b/abs_17fav01gwy/croot/h5py_1691589733413/work
+h5py==3.12.1
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
 holoviews @ file:///C:/b/abs_704uucojt7/croot/holoviews_1707836477070/work
 httpcore==1.0.7
 httpx==0.28.1
+huggingface-hub==0.26.5
 hvplot @ file:///C:/b/abs_3627uzd5h0/croot/hvplot_1706712443782/work
 hyperlink @ file:///tmp/build/80754af9/hyperlink_1610130746837/work
 idna @ file:///C:/ci_311/idna_1676424932545/work
@@ -168,6 +175,7 @@ jupyterlab @ file:///C:/b/abs_43venm28fu/croot/jupyterlab_1706802651134/work
 jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 jupyterlab-widgets @ file:///C:/b/abs_adrrqr26no/croot/jupyterlab_widgets_1700169018974/work
 jupyterlab_server @ file:///C:/b/abs_e08i7qn9m8/croot/jupyterlab_server_1699555481806/work
+keras==3.7.0
 keyring @ file:///C:/b/abs_dbjc7g0dh2/croot/keyring_1678999228878/work
 kiwisolver @ file:///C:/ci_311/kiwisolver_1676431979301/work
 langcodes==3.5.0
@@ -176,6 +184,7 @@ lazy-object-proxy @ file:///C:/ci_311/lazy-object-proxy_1676432050939/work
 lazy_loader @ file:///C:/b/abs_3bn4_r4g42/croot/lazy_loader_1695850158046/work
 lckr_jupyterlab_variableinspector @ file:///C:/b/abs_b5yb2mprx2/croot/jupyterlab-variableinspector_1701096592545/work
 libarchive-c @ file:///tmp/build/80754af9/python-libarchive-c_1617780486945/work
+libclang==18.1.1
 libmambapy @ file:///C:/b/abs_2euls_1a38/croot/mamba-split_1704219444888/work/libmambapy
 linkify-it-py @ file:///C:/ci_311/linkify-it-py_1676474436187/work
 llvmlite @ file:///C:/b/abs_da15r8vkf8/croot/llvmlite_1706910779994/work
@@ -199,6 +208,7 @@ mkl==2021.4.0
 mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
 mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
 mkl-service==2.4.0
+ml-dtypes==0.4.1
 more-itertools @ file:///C:/b/abs_36p38zj5jx/croot/more-itertools_1700662194485/work
 mpmath @ file:///C:/b/abs_7833jrbiox/croot/mpmath_1690848321154/work
 msgpack @ file:///C:/ci_311/msgpack-python_1676427482892/work
@@ -210,6 +220,7 @@ mypy @ file:///C:/b/abs_3880czibje/croot/mypy-split_1708366584048/work
 mypy-extensions @ file:///C:/b/abs_8f7xiidjya/croot/mypy_extensions_1695131051147/work
 mysql-connector==2.2.9
 mysql-connector-python==8.4.0
+namex==0.0.8
 navigator-updater @ file:///C:/b/abs_895otdwmo9/croot/navigator-updater_1695210220239/work
 nbclient @ file:///C:/b/abs_cal0q5fyju/croot/nbclient_1698934263135/work
 nbconvert @ file:///C:/b/abs_17p29f_rx4/croot/nbconvert_1699022793097/work
@@ -224,6 +235,8 @@ numexpr @ file:///C:/b/abs_5fucrty5dc/croot/numexpr_1696515448831/work
 numpy==2.0.2
 numpydoc @ file:///C:/ci_311/numpydoc_1676453412027/work
 openpyxl==3.0.10
+opt_einsum==3.4.0
+optree==0.13.1
 osqp==0.6.7.post3
 overrides @ file:///C:/b/abs_cfh89c8yf4/croot/overrides_1699371165349/work
 packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
@@ -327,6 +340,7 @@ ruamel-yaml-conda @ file:///C:/ci_311/ruamel_yaml_1676455799258/work
 ruamel.yaml @ file:///C:/ci_311/ruamel.yaml_1676439214109/work
 s3fs @ file:///C:/b/abs_24vbfcawyu/croot/s3fs_1701294224436/work
 s3transfer==0.10.4
+safetensors==0.4.5
 scikit-image @ file:///C:/b/abs_f7z1pjjn6f/croot/scikit-image_1707346180040/work
 scikit-learn @ file:///C:/b/abs_38k7ridbgr/croot/scikit-learn_1684954723009/work
 scipy==1.10.1
@@ -371,6 +385,12 @@ tabulate @ file:///C:/b/abs_21rf8iibnh/croot/tabulate_1701354830521/work
 tbb==2021.13.0
 tblib @ file:///Users/ktietz/demo/mc3/conda-bld/tblib_1629402031467/work
 tenacity @ file:///C:/b/abs_ddkoa9nju6/croot/tenacity_1682972298929/work
+tensorboard==2.18.0
+tensorboard-data-server==0.7.2
+tensorflow==2.18.0
+tensorflow-io-gcs-filesystem==0.31.0
+tensorflow_intel==2.18.0
+termcolor==2.5.0
 terminado @ file:///C:/ci_311/terminado_1678228513830/work
 text-unidecode @ file:///Users/ktietz/demo/mc3/conda-bld/text-unidecode_1629401354553/work
 textdistance @ file:///tmp/build/80754af9/textdistance_1612461398012/work
@@ -380,6 +400,7 @@ three-merge @ file:///tmp/build/80754af9/three-merge_1607553261110/work
 tifffile @ file:///C:/b/abs_45o5chuqwt/croot/tifffile_1695107511025/work
 tinycss2 @ file:///C:/ci_311/tinycss2_1676425376744/work
 tldextract @ file:///opt/conda/conda-bld/tldextract_1646638314385/work
+tokenizers==0.21.0
 toml @ file:///tmp/build/80754af9/toml_1616166611790/work
 tomlkit @ file:///C:/ci_311/tomlkit_1676425418821/work
 toolz @ file:///C:/ci_311/toolz_1676431406517/work
@@ -387,6 +408,7 @@ torch==2.3.1
 tornado @ file:///C:/b/abs_0cbrstidzg/croot/tornado_1696937003724/work
 tqdm @ file:///C:/b/abs_f76j9hg7pv/croot/tqdm_1679561871187/work
 traitlets @ file:///C:/ci_311/traitlets_1676423290727/work
+transformers==4.47.0
 truststore @ file:///C:/b/abs_55z7b3r045/croot/truststore_1695245455435/work
 Twisted @ file:///C:/b/abs_e7yqd811in/croot/twisted_1708702883769/work
 twisted-iocpsupport @ file:///C:/ci_311/twisted-iocpsupport_1676447612160/work
