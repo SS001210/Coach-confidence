@@ -7,7 +7,7 @@ def analyze_text(text: str) -> dict:
     """
     # Define patterns for low-confidence indicators
     patterns = {
-        "hedging": r"\b(just|maybe|perhaps|might|I think|I feel)\b",
+        "hedging": r"\b(just|maybe|perhaps|might|I think|I feel|not sure|mess up|wrong)\b",
         "apologizing": r"\b(sorry|apologize|I’m afraid|forgive me)\b",
         "minimizing": r"\b(only|merely|a little|somewhat|not much)\b",
         "passive_voice": r"\b(was|were|is|been|being)\b .* by\b",
@@ -15,8 +15,8 @@ def analyze_text(text: str) -> dict:
         "evasive_language": r"\b(I don’t know|I’m not an expert|I could be wrong|It’s possible that)\b",
         "understatements": r"\b(Okay|fine|not bad|could be worse)\b",
         "disclaimers": r"\b(Just my opinion|I’m no expert|This might be wrong|not capable)\b",
-        "non_committal": r"\b(kind of|sort of|like|a bit)\b",
-        "overuse_of_idk": r"\b(I don’t know)\b",
+        "non_committal": r"\b(kind of|sort of|like|a bit|little)\b",
+        "overuse_of_idk": r"\b(I don’t know| I have no idea| I am not confident)\b",
     }
 
     # Initialize results
